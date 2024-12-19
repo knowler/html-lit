@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset=utf-8>
+<meta name=color-scheme content="dark light">
+<meta name=viewport content=width=device-width,initial-scale=1>
+<title>html-lit</title>
+<meta name=description content="HTML implemented with Lit for science.">
+<script type=importmap>
+	{
+		"imports": {
+			"lit": "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js"
+		}
+	}
+</script>
+<link rel=modulepreload href=https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js>
+<script type="module" src="/html/anchor-element.js?define" blocking=render></script>
+<script type="module" src="/html/button-element.js?define" blocking=render></script>
+
+<lit-a download="adsf.html">Hello, World!</lit-a>
+<lit-a href="adsf.html">Hello, World!</lit-a>
+<lit-button>Button</lit-button>
